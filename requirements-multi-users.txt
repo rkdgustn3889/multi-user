@@ -1,0 +1,34 @@
+# Multi-Users RAG Application Requirements
+# Streamlit Cloud 배포용
+
+# Streamlit
+streamlit>=1.32.0
+
+# LangChain 및 관련 패키지
+langchain>=0.3.19
+langchain-core>=0.3.40
+langchain-community>=0.3.0
+langchain-openai>=0.3.7
+langchain-anthropic>=0.2.0
+langchain-google-genai>=2.0.0
+langchain-text-splitters>=0.3.6
+
+# LLM API 클라이언트
+openai>=1.65.1
+anthropic>=0.49.0
+
+# Supabase
+supabase>=2.0.0
+
+# PDF 처리
+pypdf>=5.1.0
+
+# 환경 변수 관리
+python-dotenv>=1.0.1
+
+# 수치 연산 (벡터 유사도 계산용)
+numpy>=1.26.4
+
+# 기타 필수 패키지
+typing-extensions>=4.12.2
+
